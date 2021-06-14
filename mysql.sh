@@ -1,3 +1,10 @@
 #!/bin/bash
-docker pull mysql/mysql-server
-docker run --name=mysql -d mysql/mysql-server
+
+# mysql container
+docker run --name db1 -e MYSQL_ROOT_PASSWORD=admin  mysql
+
+
+
+
+# connect through mysql-client
+#
