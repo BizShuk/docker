@@ -3,8 +3,11 @@
 # mysql container
 docker run --name db1 -e MYSQL_ROOT_PASSWORD=admin  mysql
 
+### connect through mysql-client
+# mysql -u root -p
+# Enter Password: admin
 
-
-
-# connect through mysql-client
+# use mysql;
+# select user,host from user;
 #
+
